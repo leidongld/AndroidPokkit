@@ -1,0 +1,1 @@
+主要知识点为Android的四大组件中的ContentProvider
