@@ -6,6 +6,7 @@ import android.view.View
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import com.openld.androidpokkit.chapter1.activity.TestActivity
+import com.openld.androidpokkit.chapter6.handler.HandlerActivity
 
 class MainActivity : AppCompatActivity() {
     // 第一章节 Android四大组件相关
@@ -92,7 +93,9 @@ class MainActivity : AppCompatActivity() {
      * 点击了了Chapter6
      */
     fun onClickChapter6(view: View) {
-        // TODO: 2021/3/28  
+        // TODO: 2021/3/28
+        val intent = Intent(this, HandlerActivity::class.java)
+        startActivity(intent)
     }
 
     /**

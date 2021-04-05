@@ -9,14 +9,16 @@
         android:roundIcon="@drawable/launcher"
         android:supportsRtl="true"
         android:theme="@style/Theme.AndroidPokit">
-        <activity android:name="com.openld.androidpokkit.MainActivity">
+        <activity android:name=".chapter6.handler.HandlerActivity"></activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
-            android:name="com.openld.androidpokkit.chapter1.activity.TestActivity"
+            android:name=".chapter1.activity.TestActivity"
             android:launchMode="standard" />
     </application>
 
